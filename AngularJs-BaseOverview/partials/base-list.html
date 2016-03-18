@@ -1,0 +1,10 @@
+		
+<div class="col-sm-9">
+    <div class="row">
+        <div class="col-sm-3" ng-repeat="base in bases | filter: query" style="background: url(../{{base.imageUrl}}) no-repeat 50% 50%; background-size:100%;">
+            {{base.name}}
+            <p>{{base.snippet}}</p>
+            <a class="btn btn-success" href="#/bases/{{base.id}}">Подробнее &raquo;</a>
+        </div>
+    </div>
+</div><br>

@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-sm-pull-4">
+        <div class="form-area" id="new-base">
+            <form class="form-horizontal" method="post" action="" role="form">
+                <h3 style="margin-bottom: 25px; text-align: center;">Добавить базу</h3>
+                <br style="clear:both">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="snippet" id="snippet"
+                           placeholder="snippet">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="id" class="form-control" id="id" placeholder="id">
+                </div>
+                <div class="form-group"><input type="text" class="form-control" name="imageUrl" id="imageUrl"
+                                               placeholder="imageUrl">
+                </div>
+                <div class="form-group"><input type="text" name="rooms" class="form-control" id="rooms"
+                                               placeholder="rooms">
+                </div>
+                <div class="form-group"><input type="text" name="roomInfo" class="form-control" id="roomInfo"
+                                               placeholder="room info">
+                </div>
+                <div class="form-group"><input type="submit" name="submit" class="form-control" id="submit"
+                                               value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+        <div class="col-sm-pull-2" ng-repeat="base in bases | filter: query">
+            <div class="thumbnail">
+                <img class="group list-group-image img-thumbnail" src="{{base.imageUrl}}" alt="{{base.name}}"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        {{base.name}}</h4>
+                    <p class="group inner list-group-item-text">
+                        {{base.snippet}}</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="#/bases/{{base.id}}">Подробнее &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>

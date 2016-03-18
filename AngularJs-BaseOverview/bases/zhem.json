@@ -1,0 +1,31 @@
+{
+    "description": "У моря",
+    "id": "zhem",
+    "images": [
+        "img/bases/zhem/zhem-2-0-territory-1.jpg",
+        "img/bases/zhem/zhem-2-0-territory-2.jpg",
+        "img/bases/zhem/zhem-2-0-territory-4.jpg",
+        "img/bases/zhem/zhem-2-0-territory-5.jpg",
+        "img/bases/zhem/zhem-2-0-territory-6.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-2m-1.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-2m-2.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-2m-3.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-2m-4.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-2m-5.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-3m-1.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-3m-2.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-3m-3.jpg",
+        "img/bases/zhem/zhem-2-nomer-1k-3m-4.jpg",
+        "img/bases/zhem/zhem-2-nomer-2-1k-2m-1.jpg",
+        "img/bases/zhem/zhem-2-nomer-2-1k-2m-2.jpg",
+        "img/bases/zhem/zhem-2-nomer-2-1k-2m-3.jpg",
+        "img/bases/zhem/zhem-2-nomer-2-1k-3m-1.jpg",
+        "img/bases/zhem/zhem-2-nomer-2-1k-3m-2.jpg",
+        "img/bases/zhem/zhem-2-nomer-2-1k-3m-3.jpg"
+    ],
+    "name": "Жемчужина",
+    "rooms": "Номера «Полулюкс» со всеми удобствами 2-х, 3-х и 4-х местные ",
+    "roominfo": "Каждый номер стоит из:  спальни, санузла полной комплектации с круглосуточной подачей горячей воды и индивидуального балкона с комплектом пластиковой мебели. Комплектация номера:кровати по количеству отдыхающих, сплит-система, спутниковое ТВ, холодильник, электрочайник с чашками.",
+    "contact": {"name" : "Наталия",
+                "phone": "+38(097)260-38-94"}
+}
